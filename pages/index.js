@@ -16,7 +16,6 @@ export default function Home() {
 			{[
 				WebsiteUnderConstructionBanner,
 				MeetingPlaceInfo,
-				CarolServiceInfo,
 				DoctrinalBasisInfo,
 				ContactInfo,
 			].map((Element) => (
