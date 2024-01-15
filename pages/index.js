@@ -16,8 +16,8 @@ export default function Home() {
 			{[
 				WebsiteUnderConstructionBanner,
 				MeetingPlaceInfo,
-				DoctrinalBasisInfo,
 				ContactInfo,
+				DoctrinalBasisInfo,
 			].map((Element) => (
 				<Section>{<Element />}</Section>
 			))}
