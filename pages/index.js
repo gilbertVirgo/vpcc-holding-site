@@ -14,7 +14,7 @@ export default function Home() {
 			</Head>
 			{/* Sections */}
 			{[
-				WebsiteUnderConstructionBanner,
+				//WebsiteUnderConstructionBanner,
 				MeetingPlaceInfo,
 				ContactInfo,
 				DoctrinalBasisInfo,
