@@ -5,6 +5,7 @@ import Head from "next/head";
 import MeetingPlaceInfo from "@/components/MeetingPlaceInfo";
 import Section from "@/components/Section";
 import WebsiteUnderConstructionBanner from "@/components/WebsiteUnderConstructionBanner";
+import HotCrossBunsInfo from "@/components/HotCrossBunsInfo";
 
 export default function Home() {
 	return (
@@ -15,6 +16,7 @@ export default function Home() {
 			{/* Sections */}
 			{[
 				//WebsiteUnderConstructionBanner,
+				HotCrossBunsInfo,
 				MeetingPlaceInfo,
 				ContactInfo,
 				DoctrinalBasisInfo,
