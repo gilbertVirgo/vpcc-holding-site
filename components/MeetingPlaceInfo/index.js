@@ -8,8 +8,18 @@ export default () => (
 			<p>We are Victoria Park Community Church.</p>
 			<p>
 				We meet on <strong>Sundays</strong>, from{" "}
-				<strong>6:00pm-8:00pm</strong> at{" "}
-				<strong>The Canal Club Community Centre, E2 9HP</strong>.
+				<strong>3:00pm-4:30pm</strong> at{" "}
+				<strong>
+					Victoria Park Baptist Church, 186 Grove Road, London E3 5TG
+				</strong>{" "}
+				(
+				<a
+					href="https://maps.app.goo.gl/Jj89o5MYRdTkiqYy8"
+					target="_blank"
+				>
+					get directions
+				</a>
+				).
 			</p>
 		</div>
 
