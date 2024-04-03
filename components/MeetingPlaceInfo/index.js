@@ -27,7 +27,7 @@ export default () => (
 			className={[feature.right, feature.major, feature.iframe].join(" ")}
 		>
 			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d917.905203740282!2d-0.052046201784467755!3d51.534280309435125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d7518c51a91%3A0x81cb98823aa11592!2sCanal%20Club%20Community%20Centre!5e0!3m2!1sen!2suk!4v1695728059219!5m2!1sen!2suk"
+				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9927.962060665068!2d-0.0403245!3d51.5317338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d2546e5467b%3A0xc63bbf7f98534bcd!2sVictoria%20Park%20Baptist%20Church!5e0!3m2!1sen!2suk!4v1712162146793!5m2!1sen!2suk"
 				width="100%"
 				height="100%"
 				style={{ border: 0 }}
