@@ -8,10 +8,6 @@ export default function Document() {
 		<Html lang="en">
 			<Head>
 				<meta
-					name="description"
-					content="The Victoria Park Community Church website. Under construction"
-				/>
-				<meta
 					name="viewport"
 					content="width=device-width, initial-scale=1"
 				/>

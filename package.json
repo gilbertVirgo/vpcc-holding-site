@@ -11,7 +11,7 @@
   "dependencies": {
     "countdown": "^2.6.0",
     "next": "14.0.1",
-    "next-seo": "^6.4.0",
+    "next-seo": "^6.5.0",
     "react": "^18",
     "react-countdown": "^2.3.5",
     "react-dom": "^18"
