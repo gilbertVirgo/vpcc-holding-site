@@ -18,15 +18,9 @@ export default function Document() {
 				<link rel="icon" href="/assets/favicon.svg" />
 				<meta name="theme-color" content="#7221FF" />
 
-				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link
-					rel="preconnect"
-					href="https://fonts.gstatic.com"
-					crossOrigin
-				/>
-				<link
-					href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&family=Josefin+Sans:wght@700&display=swap"
 					rel="stylesheet"
+					href="https://use.typekit.net/qba0dfg.css"
 				/>
 			</Head>
 			<body>
