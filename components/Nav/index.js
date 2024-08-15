@@ -14,10 +14,10 @@ export default () => (
 			<Link href="/">
 				<Image
 					className={styles.logo}
-					src="/assets/logo.svg"
+					src="/assets/logo-inverted.svg"
 					alt="Victoria Park Community Church logo"
-					width={50}
-					height={50}
+					width={100}
+					height={100}
 				/>
 			</Link>
 		</div>

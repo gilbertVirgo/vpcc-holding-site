@@ -1,3 +1,4 @@
+import Button from "../Button";
 import Grid from "../Grid";
 import feature from "../feature.module.scss";
 
@@ -11,16 +12,17 @@ export default () => (
 				<strong>3:00pm-4:30pm</strong> at{" "}
 				<strong>
 					Victoria Park Baptist Church, 186 Grove Road, London E3 5TG
-				</strong>{" "}
-				(
-				<a
-					href="https://maps.app.goo.gl/Jj89o5MYRdTkiqYy8"
-					target="_blank"
-				>
-					get directions
-				</a>
-				).
+				</strong>
+				.
 			</p>
+			<p>
+				The closest Underground station to our building is Mile End.
+				Coming out of Mile End, walk north up Grove Road. We'll be on
+				your right before you reach the park.
+			</p>
+			<a href="https://maps.app.goo.gl/Jj89o5MYRdTkiqYy8" target="_blank">
+				<Button>Get directions →</Button>
+			</a>
 		</div>
 
 		<div

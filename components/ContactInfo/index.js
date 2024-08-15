@@ -17,7 +17,7 @@ export default () => (
 		</div>
 		<div
 			className={[feature.major, feature.left, feature.image].join(" ")}
-			style={{ backgroundImage: `url("/assets/contact.jpg")` }}
+			style={{ backgroundImage: `url("/assets/connect.jpg")` }}
 		/>
 	</Grid>
 );

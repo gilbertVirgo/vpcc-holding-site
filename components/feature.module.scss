@@ -1,70 +1,84 @@
 @import "./variables.scss";
 
 .minor {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: $gutter;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: calc($gutter / 2);
 
-    h2, p { margin: 0}
+	p,
+	h2 {
+		margin: 0;
+	}
+	h2 + p {
+		margin: calc($gutter * 1.5) 0 0 0;
+	}
+	p + a {
+		margin: $gutter 0 0 0;
+	}
 }
 
 .major {
-    &.image, &.iframe {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        padding-bottom: 60%;
+	border: 1px solid $primary;
 
-        overflow: hidden;
-        border-radius: 5px ;
-    }
+	&.image,
+	&.iframe {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		padding-bottom: 60%;
 
-    &.iframe {
-        position: relative;
+		overflow: hidden;
+		border-radius: 10px;
+	}
 
-        iframe {
-            position: absolute;
-            left: 0;
-            top: 0;
-        }
-    }
+	&.iframe {
+		position: relative;
+
+		iframe {
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
 }
 
 @media screen and (max-width: $sm) {
-    .minor, .major {
-        grid-column: 1 / -1;
-    }
+	.minor,
+	.major {
+		grid-column: 1 / -1;
+	}
 }
 
 @media screen and (min-width: $sm) and (max-width: $md) {
-    .minor {
-        grid-column: 2 / -2;
-    }
-    .major {
-        grid-column: 1 / -1;
-    }
+	.minor {
+		grid-column: 2 / -2;
+	}
+	.major {
+		grid-column: 1 / -1;
+	}
 }
 
 @media screen and (min-width: $md) {
-    .minor, .major {
-        grid-row: 1;
-    }
+	.minor,
+	.major {
+		grid-row: 1;
+	}
 
-    .minor {
-        &.left {
-            grid-column: 2 / 6;
-        }
-        &.right {
-            grid-column: 8 / -2;
-        }
-    }
-    .major {
-        &.left {
-            grid-column: 1 / 7;
-        }
-        &.right {
-            grid-column: 7 / -1;
-        }
-    }
+	.minor {
+		&.left {
+			grid-column: 2 / 6;
+		}
+		&.right {
+			grid-column: 8 / -2;
+		}
+	}
+	.major {
+		&.left {
+			grid-column: 1 / 7;
+		}
+		&.right {
+			grid-column: 7 / -1;
+		}
+	}
 }

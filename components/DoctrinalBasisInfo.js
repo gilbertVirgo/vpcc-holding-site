@@ -16,7 +16,7 @@ export default () => (
 		</div>
 		<div
 			className={[feature.major, feature.right, feature.image].join(" ")}
-			style={{ backgroundImage: `url("/assets/doctrinal-basis.jpg")` }}
+			style={{ backgroundImage: `url("/assets/doctrinal.jpg")` }}
 		/>
 	</Grid>
 );
