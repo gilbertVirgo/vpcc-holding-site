@@ -15,7 +15,8 @@ export default function Document() {
 					name="viewport"
 					content="width=device-width, initial-scale=1"
 				/>
-				<link rel="icon" href="/logo.svg" />
+				<link rel="icon" href="/assets/favicon.svg" />
+				<meta name="theme-color" content="#7221FF" />
 
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link
