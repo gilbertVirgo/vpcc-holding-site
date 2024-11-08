@@ -5,7 +5,7 @@ import feature from "../feature.module.scss";
 export default () => (
 	<Grid>
 		<div className={[feature.left, feature.minor].join(" ")}>
-			<h2>What, Where, When?</h2>
+			<h2>What, When, Where?</h2>
 			<p>We are Victoria Park Community Church.</p>
 			<p>
 				We meet on <strong>Sundays</strong>, from{" "}
@@ -18,7 +18,7 @@ export default () => (
 			<p>
 				The closest Underground station to our building is Mile End.
 				Coming out of Mile End, walk north up Grove Road. We'll be on
-				your right before you reach the park.
+				your right before you reach Victoria Park.
 			</p>
 			<a href="https://maps.app.goo.gl/Jj89o5MYRdTkiqYy8" target="_blank">
 				<Button>Get directions →</Button>

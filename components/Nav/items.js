@@ -1,14 +1,14 @@
 export default [
 	{
-		title: "Home",
-		link: "/",
+		title: "Sundays",
+		link: "#sundays",
 	},
 	{
-		title: "Statement of Faith",
-		link: "statement-of-faith",
+		title: "Connect",
+		link: "#connect",
 	},
 	{
-		title: "Carol Service",
-		link: "carols",
+		title: "Beliefs",
+		link: "#beliefs",
 	},
 ];

@@ -1,5 +1,6 @@
 import ContactInfo from "@/components/ContactInfo";
 import DoctrinalBasisInfo from "@/components/DoctrinalBasisInfo";
+import DonateInfo from "@/components/DonateInfo";
 import Footer from "@/components/Footer";
 import Head from "next/head";
 import MeetingPlaceInfo from "@/components/MeetingPlaceInfo";
@@ -43,11 +44,14 @@ export default function Home() {
 				<title>Victoria Park Community Church</title>
 			</Head>
 			{/* Sections */}
-			{[MeetingPlaceInfo, ContactInfo, DoctrinalBasisInfo].map(
-				(Element) => (
-					<Section>{<Element />}</Section>
-				)
-			)}
+			{[
+				MeetingPlaceInfo,
+				ContactInfo,
+				DoctrinalBasisInfo,
+				DonateInfo,
+			].map((Element) => (
+				<Section>{<Element />}</Section>
+			))}
 			<Footer />
 		</>
 	);
