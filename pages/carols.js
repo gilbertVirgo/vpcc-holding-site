@@ -8,11 +8,10 @@ import MeetingPlaceInfo from "@/components/MeetingPlaceInfo";
 import { NextSeo } from "next-seo";
 import Section from "@/components/Section";
 
-const SEOTitle = "Victoria Park Community Church | Welcome",
-	SEODescription =
-		"New church plant near Victoria Park. Gospel-centred & Christ-focused. Reaching the community as a community.";
+const SEOTitle = "Carols | Victoria Park Community Church",
+	SEODescription = "You're invited to this year's carol service!";
 
-export default function Home() {
+export default () => {
 	return (
 		<>
 			<NextSeo
@@ -42,19 +41,13 @@ export default function Home() {
 				}}
 			/>
 			<Head>
-				<title>Victoria Park Community Church</title>
+				<title>Carols | Victoria Park Community Church</title>
 			</Head>
-			{/* Sections */}
-			{[
-				CarolsInfo,
-				MeetingPlaceInfo,
-				ContactInfo,
-				DoctrinalBasisInfo,
-				DonateInfo,
-			].map((Element) => (
-				<Section>{<Element />}</Section>
-			))}
+
+			<Section>
+				<CarolsInfo />
+			</Section>
 			<Footer />
 		</>
 	);
-}
+};
