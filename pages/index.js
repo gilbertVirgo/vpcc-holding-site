@@ -46,7 +46,6 @@ export default function Home() {
 			</Head>
 			{/* Sections */}
 			{[
-				CarolsInfo,
 				MeetingPlaceInfo,
 				ContactInfo,
 				DoctrinalBasisInfo,
